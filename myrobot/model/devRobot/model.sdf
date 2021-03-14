@@ -2,7 +2,7 @@
 <sdf version='1.6'>
   <model name='devRobot'>
     <link name='base'>
-      <pose frame=''>0 -0 0.155 0 -0 0</pose>
+      <pose frame=''>0 0 0.155 0 -0 0</pose>
       <inertial>
         <mass>1.5</mass>
         <inertia>
@@ -29,14 +29,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -114,7 +114,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -126,14 +125,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -211,7 +210,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -223,14 +221,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -308,7 +306,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -320,14 +317,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -405,7 +402,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -417,14 +413,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -502,7 +498,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -514,14 +509,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -599,7 +594,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -611,14 +605,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -681,7 +675,7 @@
       </collision>
     </link>
     <link name='link_0'>
-      <pose frame=''>0.1 0.05 0.05 -2e-06 1.5707 -2e-06</pose>
+      <pose frame=''>0.1 0.05 0.05 -3e-06 1.5707 -3e-06</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -708,14 +702,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -779,7 +773,7 @@
       </collision>
     </link>
     <link name='link_0_clone'>
-      <pose frame=''>-0.1 0.05 0.05 -2e-06 1.5707 -2e-06</pose>
+      <pose frame=''>-0.1 0.05 0.05 -3e-06 1.5707 -3e-06</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -806,14 +800,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -903,14 +897,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -999,14 +993,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -1096,14 +1090,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -1167,7 +1161,7 @@
       </collision>
     </link>
     <link name='link_3'>
-      <pose frame=''>0 -0.1 0.025 0 -0 0</pose>
+      <pose frame=''>-0 -0.1 0.025 0 -0 0</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -1193,14 +1187,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -1263,7 +1257,7 @@
       </collision>
     </link>
     <link name='spaceholder'>
-      <pose frame=''>-0 0.14 0.21 0 -0 0</pose>
+      <pose frame=''>0 0.14 0.21 0 -0 0</pose>
       <inertial>
         <mass>0.1</mass>
         <inertia>
@@ -1278,7 +1272,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1291,14 +1284,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -1377,7 +1370,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1390,14 +1382,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -1476,7 +1468,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1489,14 +1480,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -1560,7 +1551,7 @@
       </collision>
     </link>
     <link name='topFront'>
-      <pose frame=''>0 0.1 0.265 0 -0 0</pose>
+      <pose frame=''>-0 0.1 0.265 0 -0 0</pose>
       <inertial>
         <mass>0.1</mass>
         <inertia>
@@ -1575,7 +1566,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1587,14 +1577,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -1672,7 +1662,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1684,14 +1673,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -1769,7 +1758,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -1781,14 +1769,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
@@ -1866,7 +1854,6 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
-      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0.025 0 0 -0 0</pose>
         <geometry>
@@ -1878,14 +1865,14 @@
           <lighting>1</lighting>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Green</name>
           </script>
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
-          <diffuse>0.7 0.7 0.7 1</diffuse>
-          <specular>0.01 0.01 0.01 1</specular>
+          <ambient>0 0.3 0 1</ambient>
+          <diffuse>0 0.7 0 1</diffuse>
+          <specular>0 0.01 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
