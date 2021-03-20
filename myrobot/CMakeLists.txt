@@ -5,5 +5,5 @@ include_directories(${GAZEBO_INCLUDE_DIRS})
 link_directories(${GAZEBO_LIBRARY_DIRS})
 list(APPEND CMAKE_CXX_FLAGS "${GAZEBO_CXX_FLAGS}")
 
-add_library(hello SHARED script/hello.cpp)
-target_link_libraries(hello ${GAZEBO_LIBRARIES})
+add_library(helloWorld SHARED script/helloWorld.cpp)
+target_link_libraries(helloWorld ${GAZEBO_LIBRARIES})
