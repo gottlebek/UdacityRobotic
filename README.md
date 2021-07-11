@@ -1,25 +1,20 @@
 # UdacityRobotic
 Repository for the Udacity course "become a robotics software engineer"
 
-# Project: Build My World
+# Project: Go Chase It!
 ## Pictures of the world and the robot
+This is the robot which is used here:
+![my_robot](https://user-images.githubusercontent.com/80584914/123472944-29832b80-d5f8-11eb-99aa-a4da38e79d8c.png)
+
 This is the ApartmentWorld in gazebo:
-![ApartmentWorld](https://user-images.githubusercontent.com/80584914/111225133-b113d400-85df-11eb-8d93-d04a77f4d82e.PNG)
+![ApartmentworldWithBall](https://user-images.githubusercontent.com/80584914/123473175-7e26a680-d5f8-11eb-9d06-3ffa283c1ec2.png)
 
-This is the devrobot (like a develop plattform) in gazebo:
-![devrobot](https://user-images.githubusercontent.com/80584914/111225139-b2dd9780-85df-11eb-9a63-376b5d88e5e4.PNG)
+## Start the Project
+1. Launch the robot and the environment:
+* roslaunch my_robot world.launch
+2. Launch the ros service to control the robot and the ball chaser node
+* roslaunch ball_chaser ball_chaser.launch
 
-## Prepare gazebo plugins
-Before starting gazebo with a world the *.cpp script must build first.
-1. Go into the build directory and run:
-* cmake ..
-* make
-
-2. After this the build directory must added to the gazebo plugin path:
-* export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/Documents/workspace/UdacityRobotic/myrobot/build
-
-3. Now the world can be opened with gazebo (you need to be in the world directory with the terminal):
-* gazebo ApartmentWorld
-
-
+## Play with the robot
+Place the white ball which is currently outside the building into the front of the robot.
 
